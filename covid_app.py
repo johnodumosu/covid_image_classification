@@ -33,7 +33,7 @@ if uploaded_file is not None:
     st.write(f'{img.shape}')
 
     # Load the trained model
-    model = load_model('C:/Users/DELL/Downloads/AI_LeadTech/MLOPS/streamlit_image_classification/image_model01.h5')
+    model = load_model('image_model01.h5')
 
 
     # Make predictions using your model
